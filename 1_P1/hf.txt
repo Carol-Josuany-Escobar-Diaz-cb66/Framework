@@ -1,0 +1,50 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+
+import { RutaComponent } from './ruta/ruta.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    RutaComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+------------------------------------------------------
+
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { RutaComponent } from './ruta.component'
+
+describe('RutaComponent', () => {
+  let component: RutaComponent;
+  let fixture: ComponentFixture<RutaComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ RutaComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(RutaComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

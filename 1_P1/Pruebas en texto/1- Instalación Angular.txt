@@ -1,0 +1,74 @@
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge> cd C:\Users\Inicio\Documents\Semestre_5G\Jorge\1_Angular
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\1_Angular> npm install -g @angular/cli
+
+changed 209 packages, and audited 210 packages in 11m
+
+25 packages are looking for funding
+  run `npm fund` for details       
+
+found 0 vulnerabilities
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\1_Angular> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\1_Angular> ng new Angular-app
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE Angular-app/package.json (1042 bytes)
+CREATE Angular-app/README.md (1064 bytes)
+CREATE Angular-app/tsconfig.json (863 bytes)
+CREATE Angular-app/.editorconfig (274 bytes)
+CREATE Angular-app/.gitignore (548 bytes)
+CREATE Angular-app/.browserslistrc (600 bytes)
+CREATE Angular-app/karma.conf.js (1428 bytes)
+CREATE Angular-app/tsconfig.app.json (287 bytes)
+CREATE Angular-app/tsconfig.spec.json (333 bytes)
+CREATE Angular-app/.vscode/extensions.json (130 bytes)
+CREATE Angular-app/.vscode/launch.json (474 bytes)
+CREATE Angular-app/.vscode/tasks.json (938 bytes)
+CREATE Angular-app/src/favicon.ico (948 bytes)
+CREATE Angular-app/src/index.html (296 bytes)
+CREATE Angular-app/src/main.ts (372 bytes)
+CREATE Angular-app/src/polyfills.ts (2338 bytes)
+CREATE Angular-app/src/styles.css (80 bytes)
+CREATE Angular-app/src/test.ts (749 bytes)
+CREATE Angular-app/src/assets/.gitkeep (0 bytes)
+CREATE Angular-app/src/environments/environment.prod.ts (51 bytes)
+CREATE Angular-app/src/environments/environment.ts (658 bytes)
+CREATE Angular-app/src/app/app-routing.module.ts (245 bytes)
+CREATE Angular-app/src/app/app.module.ts (393 bytes)
+CREATE Angular-app/src/app/app.component.html (23115 bytes)
+CREATE Angular-app/src/app/app.component.spec.ts (1088 bytes)
+CREATE Angular-app/src/app/app.component.ts (215 bytes)
+CREATE Angular-app/src/app/app.component.css (0 bytes)
+✔ Packages installed successfully.
+"git" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\1_Angular> cd Angular-app
+>> ng serve --open
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more  
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable
+
+Global setting: enabled
+Local setting: enabled
+Effective status: enabled
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.10 MB |
+polyfills.js          | polyfills     | 318.06 kB |
+styles.css, styles.js | styles        | 210.09 kB |
+main.js               | main          |  50.18 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+                      | Initial Total |   2.67 MB
+
+Build at: 2022-09-22T14:57:32.528Z - Hash: 7090dbd327f9dd27 - Time: 27522ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.

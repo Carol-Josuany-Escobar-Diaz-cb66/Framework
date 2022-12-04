@@ -1,0 +1,121 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge> node -v
+v16.17.0
+8.15.0
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge> npx -v
+8.15.0
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge> cd react2
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> npm install -g create-react-app
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+changed 67 packages, and audited 68 packages in 18s
+
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> npm install -g create-react-app
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+changed 67 packages, and audited 68 packages in 6s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+2 high severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> npm audit
+npm ERR! code ENOLOCK
+npm ERR! audit This command requires an existing lockfile.
+npm ERR! audit Try creating one first with: npm i --package-lock-only
+npm ERR! audit Original error: loadVirtual requires existing shrinkwrap file
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Inicio\AppData\Local\npm-cache\_logs\2022-09-24T06_10_59_227Z-debug-0.log
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> npm -v
+8.15.0
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> npm install -g create-react-app
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+changed 67 packages, and audited 68 packages in 4s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+2 high severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> create-react-app 
+Please specify the project directory:
+  create-react-app <project-directory>
+
+For example:
+  create-react-app my-react-app
+
+Run create-react-app --help to see all options.
+PS C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2> create-react-app my-react-app
+
+Creating a new React app in C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2\my-react-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1394 packages in 5m
+
+210 packages are looking for funding
+  run `npm fund` for details
+Git repo not initialized Error: Command failed: git --version
+    at checkExecSyncError (node:child_process:841:11)
+    at execSync (node:child_process:912:15)
+    at tryGitInit (C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2\my-react-app\node_modules\react-scripts\scripts\init.js:46:5)   
+    at module.exports (C:\Users\Inicio\Documents\Semestre_5G\Jorge\react2\my-react-app\node_modules\react-scripts\scripts\init.js:276:7)
+    at [eval]:3:14
+    at Script.runInThisContext (node:vm:129:12)
+    at Object.runInThisContext (node:vm:313:38)
+    at node:internal/process/execution:76:19
+    at [eval]-wrapper:6:22 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 6372,
+  stdout: null,
+  stderr: null
+}
+
+Installing template dependencies using npm...
+
+added 56 packages in 16s
+
+210 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1450 packages in 6s
+
+210 packages are looking for funding
+  run `npm fund` for details
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Compiled successfully!
+
+You can now view my-react-app in the browser.    
+
+  Local:            http://localhost:3001        
+  On Your Network:  http://192.168.0.22:3001     
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+webpack compiled successfully
